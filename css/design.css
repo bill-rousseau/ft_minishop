@@ -1,0 +1,152 @@
+html
+{
+	background: white;
+}
+
+body
+{
+background: url("../images/bg.jpeg");
+width: 100%;
+height: 100%;
+margin: auto;
+width: 1080px;
+padding-top: 5px;
+}
+
+button:active
+{
+	background: green;
+}
+
+header
+{
+background: white;
+opacity: 0.9;
+margin-left: 30%;
+margin-right: 30%;
+text-align: center;
+color: red;
+}
+
+nav a
+{
+background: white;
+opacity: 0.9;
+vertical-align: top;
+width: 100%;
+font-size: 120%;
+border: solid grey 1px;
+color: black;
+margin: 5px;
+}
+
+nav a:hover
+{
+	border-color: white;
+	background-color: red;
+	color: white;
+	transition: 0.3s;
+}
+
+nav a:active
+{
+	border-color: white;
+	background-color: red;
+	color: white;
+	transition: 0.3s;
+}
+
+section
+{
+text-align: justify;
+display: inline-block;
+vertical-align: top;
+width: 98%;
+border: solid grey 1px;
+background: white;
+opacity: 0.7;
+padding: 10px;
+margin-top: 5px;
+}
+
+article
+{
+color: black;
+padding: 10px;
+}
+
+footer
+{
+background: white;
+opacity: 0.9;
+margin-left: 30%;
+margin-right: 30%;
+padding-bottom: 10px;
+text-align: center;
+}
+
+a
+{
+color: black;
+}
+
+a:hover
+{
+border
+}
+
+a:active
+{
+font-size: 130%;
+color: red;
+}
+
+h1
+{
+font-size: 40px;
+font-family: "Andale Mono";
+padding-top: 5%;
+}
+
+h2
+{
+font-size: 30px;
+font-weight: normal;
+font-family: "Andale Mono";
+color: red;
+text-align: center;
+}
+
+h3
+{
+font-weight: bold;
+}
+li
+{
+text-align: left;
+}
+
+p
+{
+padding-left: 30px;
+}
+
+table
+{
+margin: auto;
+
+}
+
+td, th
+{
+padding-left: 10px;
+padding-right: 10px;
+border: solid grey 2px;
+}
+
+.green
+{
+	text-align:right;
+	font-weight: bold;
+	color: #00FF00;
+}
